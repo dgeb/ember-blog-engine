@@ -1,0 +1,9 @@
+<h3>All Posts</h3>
+
+{{#each model as |post|}}
+  <h4>
+    {{#link-to 'post' post}}
+      {{post.title}}
+    {{/link-to}} - by {{post.author}}
+  </h4>
+{{/each}}

@@ -1,0 +1,8 @@
+<h3>Comments</h3>
+
+{{#each model as |comment|}}
+  <h4>Comment by {{comment.author}}:</h4>
+  <p>{{{comment.comment}}}</p>
+{{/each}}
+
+{{outlet}}
