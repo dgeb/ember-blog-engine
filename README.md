@@ -1,7 +1,7 @@
 # Ember-blog-engine
 
 This is a simple demo of the
-[ember-engines](https://github.com/dgeb/ember-blog-engine) addon.
+[ember-engines](https://github.com/dgeb/ember-engines) addon.
 
 `ember-blog-engine` is a simple routable engine that is dependent upon its
 parent to provide `session` and `blogData` services.
