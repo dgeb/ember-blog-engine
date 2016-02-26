@@ -1,6 +1,6 @@
 {
   "name": "ember-blog-engine",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An example of a routable engine. Just for demo purposes.",
   "private": true,
   "directories": {
@@ -48,7 +48,7 @@
   "dependencies": {
     "ember-cli-htmlbars": "^1.0.1",
     "ember-cli-babel": "^5.1.5",
-    "ember-engines": "^0.1.2"
+    "ember-engines": "^0.2.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
