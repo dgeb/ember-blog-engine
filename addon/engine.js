@@ -1,10 +1,12 @@
 import Engine from 'ember-engines/engine';
 import Resolver from 'ember-engines/resolver';
-import loadInitializers from 'ember/load-initializers';
+import loadInitializers from 'ember-load-initializers';
 import config from './config/environment';
 
+const { modulePrefix } = config;
+
 const Eng = Engine.extend({
-  modulePrefix: config.modulePrefix,
+  modulePrefix,
   Resolver,
   dependencies: {
     services: [
@@ -14,6 +16,6 @@ const Eng = Engine.extend({
   }
 });
 
-loadInitializers(Eng, config.modulePrefix);
+loadInitializers(Eng, modulePrefix);
 
 export default Eng;
