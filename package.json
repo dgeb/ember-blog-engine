@@ -52,8 +52,5 @@
     "ember-cli-babel": "^5.1.6",
     "ember-data": "2.5.3",
     "ember-engines": "dgeb/ember-engines#v0.2"
-  },
-  "ember-addon": {
-    "configPath": "tests/dummy/config"
   }
 }
