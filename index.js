@@ -1,8 +1,9 @@
-/* jshint node: true */
+/* eslint-env node */
 'use strict';
 
-var EngineAddon = require('ember-engines/lib/engine-addon');
+const EngineAddon = require('ember-engines/lib/engine-addon');
 
 module.exports = EngineAddon.extend({
-  name: 'ember-blog-engine'
+  name: 'ember-blog-engine',
+  lazyLoading: false
 });

@@ -1,3 +1,3 @@
-import Resolver from 'ember-engines/resolver';
+import Resolver from 'ember-resolver';
 
 export default Resolver;
