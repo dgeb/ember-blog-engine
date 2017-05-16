@@ -1,3 +1,5 @@
+/*eslint no-console: off */
+
 export function initialize(appInstance) {
   console.log('hello-instance initializer');
 

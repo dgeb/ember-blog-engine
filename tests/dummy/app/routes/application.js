@@ -1,3 +1,5 @@
+/*eslint no-console: off */
+
 import Ember from 'ember';
 
 export default Ember.Route.extend({
